@@ -1,0 +1,54 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  // Prettier Setting JavaScript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier, как форматтер по умолчанию
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  // Prettier Setting TypeScript
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier, как форматтер по умолчанию
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  // Prettier Setting Prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  // Настройки терминала
+  "terminal.integrated.profiles.windows": {
+    "Git-Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-bash",
+      "path": "C:\\Development\\Programms\\Git\\bin\\bash.exe"
+    },
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    }
+  },
+  // Какой терминал будет по дефолту
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // TailwindCSS
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // Тема для расширения просмотра md файлов
+  "markdown-preview-enhanced.previewTheme": "atom-material.css",
+  // Prisma
+  "prisma.showPrismaDataPlatformNotification": false,
+}

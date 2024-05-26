@@ -1,0 +1,19 @@
+{
+  // Чтобы установить все рекомендуемые расширения. Введите "@recommended" в поисковике расширений VSCode и нажмите установить все рекомендуемые расширения
+  "recommendations": [
+    "bierner.color-info",
+    "ms-vscode-remote.remote-containers",
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "github.vscode-pull-request-github",
+    "shd101wyy.markdown-preview-enhanced",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "prisma.prisma",
+    "alefragnani.project-manager",
+    "bradlc.vscode-tailwindcss",
+    "tomoki1207.pdf",
+    "ms-vscode-remote.remote-wsl"
+  ]
+}
